@@ -12,11 +12,14 @@ Weekly challenges - pair in afternoons
 “Technical learning resources”
 
 SSL:
-Track your learning - what I’ve learnt and goals for next day
-GitHub repository
+1. Track your learning - what I’ve learnt and goals for next day
+2. GitHub repository
 Trello
- What to track : projects/ reflections / feedback
+3.  What to track : projects/ reflections / feedback
 COPY SLACK MESSAGES - history gets deleted
 
 Timetable for workshops on slack
 Portfolio spreadsheet look at example
+
+
+Tuesday 25th June
