@@ -38,6 +38,12 @@ Portfolio spreadsheet look at example
 
 *  if you want to run only a unit test, i.e. just test a single method, run rspec spec./filename :linenumber
 
+* cipher challenge
+  * the error "nil can't be coerced into fixnum" normally means your entering nil into the procedure you are doing. in this case, your entering nil into the temporary parameter |char| that you're using to map out the chars of plaintext. so your telling the program to go and find char in a range (a...z) that doesnt contain it. If you look at the plaintext, it contains a Z, which isnt included in the range due to the (...)
+
+
+  * ASCII NUMBERS
+    * To us, a string such as "Hello world" looks like a series of letters with a space in the middle. To your computer, however, every String – in fact, everything – is a series of numbers. In our example, each character of the String "Hello world" is represented by a number between 0 and 127. For example, to the computer, the capital letter "H" is encoded as the number 72, whereas the space is encoded as the number 32. The ASCII standard, originally developed for sending telegraphs, specifies what number is used to represent each character.    65.chr #=> 'a'
 
 
 #### Learning objectives for tomorrow: ####
